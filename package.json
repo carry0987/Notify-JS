@@ -17,10 +17,7 @@
     "url": "git+https://github.com/carry0987/Notify-JS.git"
   },
   "keywords": [
-    "actionbar",
-    "action",
-    "operation",
-    "bar"
+    "notify"
   ],
   "author": "carry0987",
   "license": "MIT",
