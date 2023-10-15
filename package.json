@@ -1,0 +1,37 @@
+{
+  "name": "@carry0987/notify",
+  "version": "1.0.0",
+  "description": "A library for create notification box via Notifications API",
+  "type": "module",
+  "main": "dist/notify.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "rollup --config rollup.config.js",
+    "build": "rollup --config rollup.config.js --environment BUILD:production"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carry0987/Notify-JS.git"
+  },
+  "keywords": [
+    "actionbar",
+    "action",
+    "operation",
+    "bar"
+  ],
+  "author": "carry0987",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carry0987/Notify-JS/issues"
+  },
+  "homepage": "https://github.com/carry0987/Notify-JS#readme",
+  "devDependencies": {
+    "@rollup/plugin-replace": "^5.0.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.0.2",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}
